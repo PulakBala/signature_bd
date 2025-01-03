@@ -1,8 +1,8 @@
 // src/layouts/Layout.jsx
 import React from 'react';
+import { Outlet } from 'react-router-dom';
 import Header from '../Components/Header';
-import MainContent from '../Components/MainContent';
-import SubHeader from '../Components/SubHeader';
+
 import Footer from '../Components/Footer';
 
 
@@ -10,7 +10,7 @@ const Layout = () => {
     return (
         <div style={{ display: 'flex', flexDirection: 'column', height: '100vh' }}>
             <Header/>
-            <MainContent/>
+            <Outlet/>
             <Footer/>   
         </div>
     );

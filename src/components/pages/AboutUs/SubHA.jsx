@@ -1,12 +1,14 @@
-import React from "react";
+import React from 'react';
 
-function SubHeader(){
-
-	<section className="bg-white py-5">
+const SubHA = () => {
+    return (
+      <>
+            {/* Sub Header with Content */}
+            <section className="bg-white py-4">
 	<div className="container">
 		<div className="row">
-			<div className="col-lg-6 text-uppercase">
-				<h1 className="display-5 fw-bold ">Bringing Dreams Together for a Brighter Future</h1>
+			<div className="col-lg-6">
+				<h4 className="text-uppercase">Bringing Dreams Together for a <br/> Brighter Future</h4>
 			</div>
 			<div className="col-lg-6">
 				<p className="text-muted">
@@ -16,7 +18,8 @@ function SubHeader(){
 		</div>
 	</div>
 </section>
+      </>
+    );
+};
 
-}
-
-export default SubHeader();
+export default SubHA;

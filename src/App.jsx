@@ -1,15 +1,14 @@
 // src/App.jsx
 import React from 'react';
-import Layout from './layouts/layouts';
+import { RouterProvider } from 'react-router-dom';
+import router from './route';
+
 
 const App = () => {
     return (
-     
-        <Layout/>
-  
-            
+        <RouterProvider router={router}/>
     
-    );
+    ); 
 };
 
 export default App;

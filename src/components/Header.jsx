@@ -1,6 +1,7 @@
 // src/components/Header.jsx
 import React from 'react';
-import SubHeader from './SubHeader';
+import { Link } from 'react-router-dom';
+
 
 function Header() {
   return (
@@ -40,7 +41,7 @@ function Header() {
             <div className="collapse navbar-collapse" id="navbarNav">
               <ul className="navbar-nav ms-auto text-uppercase " >
                 <li className="nav-item me-4">
-                  <a className="nav-link" href="#" style={{color: '#eb3d66'}}>About Us</a>
+                  <Link to="/" className="nav-link" style={{color: '#eb3d66'}}>About Us</Link>
                 </li>
                 <li className="nav-item me-4">
                   <a className="nav-link" href="#" style={{color: '#eb3d66'}} >Products</a>
@@ -49,10 +50,10 @@ function Header() {
                   <a className="nav-link" href="#" style={{color: '#eb3d66'}}>Solutions</a>
                 </li>
                 <li className="nav-item me-4">
-                  <a className="nav-link" href="#" style={{color: '#eb3d66'}}>Sustainability</a>
+                  <Link to="/sustainability" className="nav-link" style={{color: '#eb3d66'}}>Sustainability</Link>
                 </li>
                 <li className="nav-item me-4">
-                  <a className="nav-link" href="#" style={{color: '#eb3d66'}}>News & Events</a>
+                  <Link to="/news-events" className="nav-link" style={{color: '#eb3d66'}}>News & Events</Link>
                 </li>
                 <li className="nav-item me-4">
                   <a className="nav-link" href="#" style={{color: '#eb3d66'}}>Career</a>
@@ -66,21 +67,7 @@ function Header() {
         </div>
       </header>
 
-      {/* Sub Header with Content */}
-      <section className="bg-white py-4">
-	<div className="container">
-		<div className="row">
-			<div className="col-lg-6">
-				<h4 className="text-uppercase">Bringing Dreams Together for a <br/> Brighter Future</h4>
-			</div>
-			<div className="col-lg-6">
-				<p className="text-muted">
-					The journey began in 2005 with a shared vision to create a lasting legacy. Today, Expo Group has grown into one of the largest conglomerates in the garments, technology, and manufacturing sectors.
-				</p>
-			</div>
-		</div>
-	</div>
-</section>
+
     </>
   );
 }

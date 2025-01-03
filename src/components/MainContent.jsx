@@ -7,10 +7,12 @@ import Factory from './pages/AboutUs/Factory';
 import CertificatesAwards from './pages/AboutUs/CertificatesAwards';
 import OurClients from './pages/AboutUs/OurClients';
 import NewsLetter from './pages/AboutUs/NewsLetter';
+import SubHA from './pages/AboutUs/SubHA';
 
 const MainContent = () => {
     return (
         <main style={{ padding: '20px' }}>
+          <SubHA/>
           <VidePart/>
           <MvissionCard/>
           <BoardDirector/>

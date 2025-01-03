@@ -3,6 +3,7 @@ import Layout from './layouts/layouts';
 import MainContent from './components/MainContent';
 import Sustainability from './Sustainability';
 import NewsEvents from './NewsEvents';
+import Careers from './Careers';
 
 const router = createBrowserRouter([
     {
@@ -20,7 +21,11 @@ const router = createBrowserRouter([
             {
                 path: 'news-events',
                 element: <NewsEvents/>
-            }
+            },
+            {
+                path: 'careers',
+                element: <Careers/>
+            },
         
             // অন্যান্য রাউট এখানে যোগ করুন
         ]

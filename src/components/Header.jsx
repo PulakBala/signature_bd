@@ -56,7 +56,7 @@ function Header() {
                   <Link to="/news-events" className="nav-link" style={{color: '#eb3d66'}}>News & Events</Link>
                 </li>
                 <li className="nav-item me-4">
-                  <a className="nav-link" href="#" style={{color: '#eb3d66'}}>Career</a>
+                  <Link to="/careers" className="nav-link" style={{color: '#eb3d66'}}>Career</Link>
                 </li>
                 <li className="nav-item me-4">
                   <a className="nav-link" href="#" style={{color: '#eb3d66'}}>Contact Us</a>

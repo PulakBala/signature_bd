@@ -59,7 +59,7 @@ function Header() {
                   <Link to="/careers" className="nav-link" style={{color: '#eb3d66'}}>Career</Link>
                 </li>
                 <li className="nav-item me-4">
-                  <a className="nav-link" href="#" style={{color: '#eb3d66'}}>Contact Us</a>
+                  <Link to="/contact" className="nav-link" style={{color: '#eb3d66'}}>Contact Us</Link>
                 </li>
               </ul>
             </div>

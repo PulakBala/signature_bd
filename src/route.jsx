@@ -4,6 +4,7 @@ import MainContent from './components/MainContent';
 import Sustainability from './Sustainability';
 import NewsEvents from './NewsEvents';
 import Careers from './Careers';
+import Contact from './Contact';
 
 const router = createBrowserRouter([
     {
@@ -25,6 +26,10 @@ const router = createBrowserRouter([
             {
                 path: 'careers',
                 element: <Careers/>
+            },
+            {
+                path: 'contact',
+                element: <Contact/>
             },
         
             // অন্যান্য রাউট এখানে যোগ করুন

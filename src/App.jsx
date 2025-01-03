@@ -4,7 +4,11 @@ import Layout from './layouts/layouts';
 
 const App = () => {
     return (
-       <Layout/>
+     
+        <Layout/>
+  
+            
+    
     );
 };
 

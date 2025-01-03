@@ -1,5 +1,6 @@
 // src/components/Header.jsx
 import React from 'react';
+import SubHeader from './SubHeader';
 
 function Header() {
   return (
@@ -9,6 +10,7 @@ function Header() {
         className="bg-light shadow-sm d-flex align-items-center"
         style={{
           fontSize: '1.15rem',
+          // textColor: '#eb3d66',
           fontWeight: '500',
           borderBottom: '1px solid #ccc',
           height: '60px',
@@ -36,27 +38,27 @@ function Header() {
               <span className="navbar-toggler-icon"></span>
             </button>
             <div className="collapse navbar-collapse" id="navbarNav">
-              <ul className="navbar-nav ms-auto text-uppercase">
+              <ul className="navbar-nav ms-auto text-uppercase " >
                 <li className="nav-item me-4">
-                  <a className="nav-link" href="#">About Us</a>
+                  <a className="nav-link" href="#" style={{color: '#eb3d66'}}>About Us</a>
                 </li>
                 <li className="nav-item me-4">
-                  <a className="nav-link" href="#">Products</a>
+                  <a className="nav-link" href="#" style={{color: '#eb3d66'}} >Products</a>
                 </li>
                 <li className="nav-item me-4">
-                  <a className="nav-link" href="#">Solutions</a>
+                  <a className="nav-link" href="#" style={{color: '#eb3d66'}}>Solutions</a>
                 </li>
                 <li className="nav-item me-4">
-                  <a className="nav-link" href="#">Sustainability</a>
+                  <a className="nav-link" href="#" style={{color: '#eb3d66'}}>Sustainability</a>
                 </li>
                 <li className="nav-item me-4">
-                  <a className="nav-link" href="#">News & Events</a>
+                  <a className="nav-link" href="#" style={{color: '#eb3d66'}}>News & Events</a>
                 </li>
                 <li className="nav-item me-4">
-                  <a className="nav-link" href="#">Career</a>
+                  <a className="nav-link" href="#" style={{color: '#eb3d66'}}>Career</a>
                 </li>
                 <li className="nav-item me-4">
-                  <a className="nav-link" href="#">Contact Us</a>
+                  <a className="nav-link" href="#" style={{color: '#eb3d66'}}>Contact Us</a>
                 </li>
               </ul>
             </div>
@@ -65,20 +67,20 @@ function Header() {
       </header>
 
       {/* Sub Header with Content */}
-      <section className="bg-white py-5">
-        <div className="container">
-          <div className="row">
-            <div className="col-lg-6">
-              <h1 className="display-5 fw-bold">Bringing Dreams Together for a Brighter Future</h1>
-            </div>
-            <div className="col-lg-6">
-              <p className="text-muted">
-                The journey began in 2005 with a shared vision to create a lasting legacy. Today, Expo Group has grown into one of the largest conglomerates in the garments, technology, and manufacturing sectors.
-              </p>
-            </div>
-          </div>
-        </div>
-      </section>
+      <section className="bg-white py-4">
+	<div className="container">
+		<div className="row">
+			<div className="col-lg-6">
+				<h4 className="text-uppercase">Bringing Dreams Together for a <br/> Brighter Future</h4>
+			</div>
+			<div className="col-lg-6">
+				<p className="text-muted">
+					The journey began in 2005 with a shared vision to create a lasting legacy. Today, Expo Group has grown into one of the largest conglomerates in the garments, technology, and manufacturing sectors.
+				</p>
+			</div>
+		</div>
+	</div>
+</section>
     </>
   );
 }

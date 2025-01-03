@@ -1,11 +1,23 @@
 // src/components/MainContent.jsx
 import React from 'react';
+import VidePart from './pages/AboutUs/VideoPart';
+import MvissionCard from './pages/AboutUs/MvissionCard';
+import BoardDirector from './pages/AboutUs/BoardDirector';
+import Factory from './pages/AboutUs/Factory';
+import CertificatesAwards from './pages/AboutUs/CertificatesAwards';
+import OurClients from './pages/AboutUs/OurClients';
+import NewsLetter from './pages/AboutUs/NewsLetter';
 
 const MainContent = () => {
     return (
         <main style={{ padding: '20px' }}>
-            <h2>Welcome to the Main Content</h2>
-            <p>This is where your main application content will go.</p>
+          <VidePart/>
+          <MvissionCard/>
+          <BoardDirector/>
+          <Factory/>
+          <CertificatesAwards/>
+          <OurClients/>
+          <NewsLetter/>
         </main>
     );
 };

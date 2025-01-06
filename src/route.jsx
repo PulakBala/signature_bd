@@ -5,6 +5,8 @@ import Sustainability from './Sustainability';
 import NewsEvents from './NewsEvents';
 import Careers from './Careers';
 import Contact from './Contact';
+import BioDegradable from './BioDegradable';
+import Offset from './Offset';
 
 const router = createBrowserRouter([
     {
@@ -14,6 +16,14 @@ const router = createBrowserRouter([
             {
                 index: true,
                 element: <MainContent/>
+            },
+            {
+                path: 'bio-degradable',
+                element: <BioDegradable/>
+            },
+            {
+                path: 'offset-printing',
+                element: <Offset/>
             },
             {
                 path: 'sustainability',

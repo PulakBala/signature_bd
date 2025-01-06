@@ -1,9 +1,17 @@
-// src/components/Header.jsx
-import React from 'react';
+import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
 
-
 function Header() {
+  const [isDropdownOpen, setIsDropdownOpen] = useState(false);
+
+  const handleMouseEnter = () => {
+    setIsDropdownOpen(true);
+  };
+
+  const handleMouseLeave = () => {
+    setIsDropdownOpen(false);
+  };
+
   return (
     <>
       {/* Main Header */}
@@ -11,13 +19,12 @@ function Header() {
         className="bg-light shadow-sm d-flex align-items-center"
         style={{
           fontSize: '1.15rem',
-          // textColor: '#eb3d66',
           fontWeight: '500',
           borderBottom: '1px solid #ccc',
           height: '60px',
         }}
       >
-        <div className="container ">
+        <div className="container">
           <nav className="navbar navbar-expand-lg navbar-light">
             <a className="navbar-brand" href="#" style={{ margin: 0 }}>
               <img
@@ -39,35 +46,76 @@ function Header() {
               <span className="navbar-toggler-icon"></span>
             </button>
             <div className="collapse navbar-collapse" id="navbarNav">
-              <ul className="navbar-nav ms-auto text-uppercase " >
+              <ul className="navbar-nav ms-auto text-uppercase">
                 <li className="nav-item me-4">
-                  <Link to="/" className="nav-link" style={{color: '#eb3d66'}}>About Us</Link>
+                  <Link to="/" className="nav-link" style={{ color: '#eb3d66' }}>
+                    About Us
+                  </Link>
+                </li>
+                {/* Dropdown for Products / Solutions */}
+                <li
+                  className="nav-item dropdown me-4"
+                  onMouseEnter={handleMouseEnter}
+                  onMouseLeave={handleMouseLeave}
+                  id="productSolutionsDropdown"
+                >
+                  <a
+                    href="#"
+                    className="nav-link"
+                    style={{ color: '#eb3d66' }}
+                  >
+                    Products / Solutions
+                  </a>
+                  {isDropdownOpen && (
+                    <ul className="dropdown-menu show">
+                      <li>
+                        <Link to="/bio-degradable" className="dropdown-item">
+                          BIO DEGRADEABLE
+                        </Link>
+                      </li>
+                      <li>
+                        <Link to="/offset-printing" className="dropdown-item">
+                          OFFSET PRINTING
+                        </Link>
+                      </li>
+                      <li>
+                        <Link to="/product-solutions/submenu3" className="dropdown-item">
+                         AUTO LABEL (SELF ADHESIVE) PRINTING
+                        </Link>
+                      </li>
+                      <li>
+                        <Link to="/product-solutions/submenu4" className="dropdown-item">
+                          CORROGATED CARTON
+                        </Link>
+                      </li>
+                    </ul>
+                  )}
                 </li>
                 <li className="nav-item me-4">
-                  <a className="nav-link" href="#" style={{color: '#eb3d66'}} >Products</a>
+                  <Link to="/sustainability" className="nav-link" style={{ color: '#eb3d66' }}>
+                    Sustainability
+                  </Link>
                 </li>
                 <li className="nav-item me-4">
-                  <a className="nav-link" href="#" style={{color: '#eb3d66'}}>Solutions</a>
+                  <Link to="/news-events" className="nav-link" style={{ color: '#eb3d66' }}>
+                    News & Events
+                  </Link>
                 </li>
                 <li className="nav-item me-4">
-                  <Link to="/sustainability" className="nav-link" style={{color: '#eb3d66'}}>Sustainability</Link>
+                  <Link to="/careers" className="nav-link" style={{ color: '#eb3d66' }}>
+                    Career
+                  </Link>
                 </li>
                 <li className="nav-item me-4">
-                  <Link to="/news-events" className="nav-link" style={{color: '#eb3d66'}}>News & Events</Link>
-                </li>
-                <li className="nav-item me-4">
-                  <Link to="/careers" className="nav-link" style={{color: '#eb3d66'}}>Career</Link>
-                </li>
-                <li className="nav-item me-4">
-                  <Link to="/contact" className="nav-link" style={{color: '#eb3d66'}}>Contact Us</Link>
+                  <Link to="/contact" className="nav-link" style={{ color: '#eb3d66' }}>
+                    Contact Us
+                  </Link>
                 </li>
               </ul>
             </div>
           </nav>
         </div>
       </header>
-
-
     </>
   );
 }

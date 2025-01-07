@@ -7,6 +7,9 @@ import Careers from './Careers';
 import Contact from './Contact';
 import BioDegradable from './BioDegradable';
 import Offset from './Offset';
+import Advise from './advise';
+
+
 
 const router = createBrowserRouter([
     {
@@ -28,6 +31,10 @@ const router = createBrowserRouter([
             {
                 path: 'sustainability',
                 element: <Sustainability/>
+            },
+            {
+                path: 'advise',
+                element: <Advise/>
             },
             {
                 path: 'news-events',

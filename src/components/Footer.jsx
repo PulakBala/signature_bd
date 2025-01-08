@@ -52,8 +52,11 @@ const Footer = () => {
                 <div>
                   <p className="mb-2 ">
                   <FaLocationDot className="mt-1" />
-                    Corporate Office: House : 63, Road-13, Sector 10, Uttara, Dhaka-1230</p>
-                  <p className="">
+                    Corporate Office:South Central Road,
+Elephant Road, Dhaka,
+Bangladesh
+</p>
+                  <p className="d-none">
                     <FaLocationDot />
                     Factory Address: Holding#1/1, Block#B Ward#21, Biprobarta,Gazipur, Bangladesh
                   </p>
@@ -61,11 +64,11 @@ const Footer = () => {
               </li>
               <li className="mb-2 d-flex align-items-center gap-2">
                 <BsTelephone />
-                <span>+8801713397459, +8801713397450</span>
+                <span>+880 1737 238747</span>
               </li>
               <li className="d-flex align-items-center gap-2">
                 <MdEmail />
-                <span>info@expoacc.com</span>
+                <span>signaturebd23@gmail.com</span>
               </li>
             </ul>
           </div>
@@ -74,7 +77,7 @@ const Footer = () => {
           <div className="col col-md-2">
             <h4 className="mb-3">Get In Touch</h4>
             <div className="d-flex gap-3">
-              <a href="#" className="text-white fs-4">
+              <a href="https://www.facebook.com/Biodegradableplasticbagbd" className="text-white fs-4">
                 <FaFacebook />
               </a>
               <a href="#" className="text-white fs-4">

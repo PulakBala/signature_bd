@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
+import { FaChevronDown } from 'react-icons/fa';
 
 function Header() {
   const [isDropdownOpen, setIsDropdownOpen] = useState(false);
@@ -19,6 +20,34 @@ function Header() {
 
   return (
     <>
+      <style>
+        {`
+            @media (min-width: 992px) {
+      .large-screen-dark {
+        color: #212529 !important;
+      }
+      
+      .navbar-nav .nav-item {
+        border: none !important;
+      }
+
+      .bg-light {
+        background-color: #ffffff !important;
+      }
+
+      .dropdown-menu {
+        background-color: #ffffff !important;
+        box-shadow: 0 0 10px rgba(0,0,0,0.1);
+      }
+
+      .dropdown-item:hover {
+        background-color: rgba(0, 0, 0, 0.1) !important;
+        color: #212529 !important;
+      }
+    }
+        `}
+      </style>
+
       {/* Main Header */}
       <header
         className="bg-light shadow-sm d-flex align-items-center"
@@ -51,97 +80,107 @@ function Header() {
             </button>
 
             {/* Mobile Sidebar */}
-            <div 
-              className={`offcanvas offcanvas-start ${isSidebarOpen ? 'show' : ''}`} 
-              tabIndex="-1" 
+            <div
+              className={`offcanvas offcanvas-start ${isSidebarOpen ? 'show' : ''}`}
+              tabIndex="-1"
               id="navbarNav"
-              style={{width: '250px'}}
+              style={{
+                fontSize: '1rem',
+                fontWeight: '500',
+                width: '250px',
+                backgroundColor: '#212529',
+                color: 'white',
+                opacity: '0.80'
+              }}
             >
               <div className="offcanvas-header">
-                <h5 className="offcanvas-title">Menu</h5>
-                <button 
-                  type="button" 
-                  className="btn-close" 
+                <h5 className="offcanvas-title text-white">Menu</h5>
+                <button
+                  type="button"
+                  className="btn-close btn-close-white"
                   onClick={() => setIsSidebarOpen(false)}
                   aria-label="Close"
                 ></button>
               </div>
               <div className="offcanvas-body">
                 <ul className="navbar-nav ms-auto text-uppercase">
-                  <li className="nav-item me-4">
-                    <Link to="/" className="nav-link" style={{ color: '#eb3d66' }}>
+                  <li className="nav-item me-4 border-bottom border-secondary">
+                    <Link to="/" className="nav-link text-white large-screen-dark">
                       About Us
                     </Link>
                   </li>
                   {/* Dropdown for Products / Solutions */}
                   <li
-                    className="nav-item dropdown me-4"
+                    className="nav-item dropdown me-4 border-bottom border-secondary"
                     onMouseEnter={handleMouseEnter}
                     onMouseLeave={handleMouseLeave}
                     id="productSolutionsDropdown"
                   >
                     <a
                       href="#"
-                      className="nav-link"
-                      style={{ color: '#eb3d66' }}
+                      className="nav-link d-flex align-items-center text-white large-screen-dark"
                     >
                       Products / Solutions
+                      <FaChevronDown className="ms-1" size={12} />
                     </a>
                     {isDropdownOpen && (
-                      <ul className="dropdown-menu show">
-                        <li>
-                          <Link to="/bio-degradable" className="dropdown-item">
+                      <ul className="dropdown-menu show" style={{ background: 'none' }}>
+                        <li className="border-bottom border-secondary">
+                          <Link to="/bio-degradable" className="dropdown-item text-white large-screen-dark">
                             BIO DEGRADEABLE
                           </Link>
                         </li>
-                        <li>
-                          <Link to="/offset-printing" className="dropdown-item">
+                        <li className="border-bottom border-secondary">
+                          <Link to="/offset-printing" className="dropdown-item text-white large-screen-dark">
                             OFFSET PRINTING
                           </Link>
                         </li>
-                        <li>
-                          <Link to="/advise" className="dropdown-item">
-                           AUTO LABEL (SELF ADHESIVE) PRINTING
+                        <li className="border-bottom border-secondary">
+                          <Link to="/advise" className="dropdown-item text-white large-screen-dark">
+                            <span className="d-none d-lg-inline">AUTO LABEL (</span>
+                            SELF ADHESIVE
+                            <span className="d-none d-lg-inline">) PRINTING</span>
                           </Link>
                         </li>
-                        <li>
-                          <Link to="/corggoted-cartton" className="dropdown-item">
+                        <li className="border-bottom border-secondary">
+                          <Link to="/corggoted-cartton" className="dropdown-item text-white large-screen-dark">
                             CORROGATED CARTON
                           </Link>
                         </li>
                       </ul>
                     )}
                   </li>
-                  <li className="nav-item me-4">
-                    <Link to="/sustainability" className="nav-link" style={{ color: '#eb3d66' }}>
+                  <li className="nav-item me-4 border-bottom border-secondary">
+                    <Link to="/sustainability" className="nav-link text-white large-screen-dark">
                       Sustainability
                     </Link>
                   </li>
-                  <li className="nav-item me-4">
-                    <Link to="/news-events" className="nav-link" style={{ color: '#eb3d66' }}>
+                  <li className="nav-item me-4 border-bottom border-secondary">
+                    <Link to="/news-events" className="nav-link text-white large-screen-dark">
                       News & Events
                     </Link>
                   </li>
-                  <li className="nav-item me-4">
-                    <Link to="/careers" className="nav-link" style={{ color: '#eb3d66' }}>
+                  <li className="nav-item me-4 border-bottom border-secondary">
+                    <Link to="/careers" className="nav-link text-white large-screen-dark">
                       Career
                     </Link>
                   </li>
-                  <li className="nav-item me-4">
-                    <Link to="/contact" className="nav-link" style={{ color: '#eb3d66' }}>
+                  <li className="nav-item me-4 border-bottom border-secondary large-screen-dark">
+                    <Link to="/contact" className="nav-link text-white large-screen-dark">
                       Contact Us
                     </Link>
                   </li>
                 </ul>
               </div>
             </div>
+
           </nav>
         </div>
       </header>
-      
+
       {/* Backdrop for mobile */}
       {isSidebarOpen && (
-        <div 
+        <div
           className="offcanvas-backdrop show"
           onClick={() => setIsSidebarOpen(false)}
         ></div>

@@ -3,7 +3,7 @@ import React from 'react';
 
 const BoardDirector = () => {
     return (
-        <section className="container my-5">
+        <section className="container my-5 d-none">
             <h2 className=" mb-5 text-uppercase">Board Of Directors</h2>
             <div className="row">
                 {/* Hasan Mahmood Raja - Chairman */}

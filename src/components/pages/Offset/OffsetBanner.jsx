@@ -2,14 +2,14 @@ import React from "react";
 
 
 const OffsetBanner = ({ cardsData = [
-    { imageSrc: '/public/offset1.jpg', headline: 'Card 1 Headline' },
-    { imageSrc: '/public/offset2.jpg', headline: 'Card 2 Headline' },
-    { imageSrc: '/public/offset3.jpg', headline: 'Card 3 Headline' },
-    { imageSrc: '/public/offset4.webp', headline: 'Card 4 Headline' }
+    { imageSrc: '/public/offset1.jpg'},
+    { imageSrc: '/public/offset2.jpg'},
+    { imageSrc: '/public/offset3.jpg'},
+    { imageSrc: '/public/offset4.webp'}
 ] }) =>{
     return(
         <>
-            <section className="banner-section py-5">
+            <section className="banner-section pb-5">
             <img 
                 src='/public/offsetBanner.png' 
                 className="banner-image"
@@ -22,7 +22,11 @@ const OffsetBanner = ({ cardsData = [
                 }}
             />
             <div className="container pb-5">
-            <p className="py-5">Offset printing by Expo Accessories Ltd. offers high-quality, precision printing suitable for various applications, including brochures, catalogs, and packaging. Utilizing advanced technology, the company ensures vibrant colors, sharp images, and consistent results on a wide range of materials. Ideal for large-volume orders, Expo Accessories Ltd. combines efficiency with exceptional print quality to meet diverse business needs.</p>
+            <p className="py-5">Signature BD takes pride in delivering exceptional printing solutions with a focus on quality and precision. Our offset printing services are designed to produce sharp, vibrant, and professional prints on a wide range of materials. Whether it’s brochures, catalogs, or product packaging, we ensure that every detail reflects excellence, helping your brand stand out in today’s competitive market.
+
+To complement our offset printing, we offer durable and high-quality backboards that provide added strength and a premium look to your products. These backboards not only protect the contents but also enhance the overall presentation, making them ideal for retail displays and packaging solutions.
+
+At Signature BD, we believe in crafting printing solutions that elevate your brand, combining advanced technology and creative expertise to deliver the best results for your business. Trust us to bring your vision to life with unmatched quality and professionalism.</p>
             <div className="row" style={{ display: 'flex', flexWrap: 'wrap', justifyContent: 'space-between' }}>
                 {cardsData.map((card, index) => (
                     <div key={index} className="card" style={{ flex: '0 0 calc(25% - 10px)', margin: '0 5px' }}>

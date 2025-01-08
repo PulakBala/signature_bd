@@ -23,7 +23,11 @@ const AdviseDetails = ({ cardsData = [
                 }}
             />
             <div className="container pb-5">
-            <p className="py-5">Offset printing by Expo Accessories Ltd. offers high-quality, precision printing suitable for various applications, including brochures, catalogs, and packaging. Utilizing advanced technology, the company ensures vibrant colors, sharp images, and consistent results on a wide range of materials. Ideal for large-volume orders, Expo Accessories Ltd. combines efficiency with exceptional print quality to meet diverse business needs.</p>
+            <p className="py-5">Signature BD specializes in high-quality auto label (self-adhesive) printing that meets the diverse needs of businesses across industries. Our labels are designed for durability, precision, and easy application, making them ideal for packaging, branding, and product identification.
+
+With advanced printing technology, we ensure vibrant colors, sharp details, and customizable designs that align perfectly with your brand’s identity. Whether you need labels for bottles, boxes, or other surfaces, our self-adhesive solutions adhere seamlessly and maintain their integrity even in challenging environments.
+
+At Signature BD, we prioritize innovation and quality, offering reliable and visually appealing label printing services that help your products leave a lasting impression. Trust us to deliver labels that stick to your needs and elevate your brand.</p>
             <div className="card-container">
                 {cardsData.map((card, index) => (
                     <div key={index} className="card">

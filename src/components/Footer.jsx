@@ -26,19 +26,19 @@ const Footer = () => {
             <h4 className="mb-3">Quick Link</h4>
             <ul className="list-unstyled text-uppercase">
               <li className="mb-2">
-                <a href="/about" className="text-white text-decoration-none">About Us</a>
+                <a href="#" className="text-white text-decoration-none">About Us</a>
               </li>
               <li className="mb-2">
-                <a href="/news" className="text-white text-decoration-none">News Events</a>
+                <a href="#" className="text-white text-decoration-none">News Events</a>
               </li>
               <li className="mb-2">
-                <a href="/career" className="text-white text-decoration-none">Career</a>
+                <a href="#" className="text-white text-decoration-none">Career</a>
               </li>
               <li className="mb-2">
-                <a href="/career" className="text-white text-decoration-none">contact us</a>
+                <a href="#" className="text-white text-decoration-none">contact us</a>
               </li>
                <li className="mb-2">
-                <a href="/career" className="text-white text-decoration-none">sustainability</a>
+                <a href="#" className="text-white text-decoration-none">sustainability</a>
               </li>
             </ul>
           </div>

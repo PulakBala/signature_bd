@@ -40,13 +40,11 @@ const MvissionCard = () => {
       <h2 className="card-title">OUR VISION</h2>
       <hr className="mt-4" />
       <p className="card-text pt-3" style={{ textAlign: "justify" }}>
-        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Autem
-        repellendus amet magni laboriosam dolore corporis fugit beatae suscipit
-        nulla facere praesentium aspernatur earum commodi, impedit laudantium
-        quod? Commodi eveniet consequatur magnam libero velit, aperiam
-        aspernatur temporibus! Obcaecati assumenda temporibus repudiandae
-        perferendis, illo modi in quos voluptatem accusantium? Modi, sint
-        voluptatem?
+      As a complete marketing solutions company, our promise to our clients
+is to deliver the highest quality service at competitive prices.
+Our vision is to be the undisputed industry leader and preferred
+choice for printing and packaging for our clients from around the
+world. 
       </p>
     </div>
   </div>
@@ -86,13 +84,11 @@ const MvissionCard = () => {
       <h2 className="card-title">OUR MISSION</h2>
       <hr className="mt-4" />
       <p className="card-text pt-3" style={{ textAlign: "justify" }}>
-        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Autem
-        repellendus amet magni laboriosam dolore corporis fugit beatae suscipit
-        nulla facere praesentium aspernatur earum commodi, impedit laudantium
-        quod? Commodi eveniet consequatur magnam libero velit, aperiam
-        aspernatur temporibus! Obcaecati assumenda temporibus repudiandae
-        perferendis, illo modi in quos voluptatem accusantium? Modi, sint
-        voluptatem?
+      As a complete marketing solutions company, our promise to our clients
+is to deliver the highest quality service at competitive prices.
+Our mission is to adhere to an outstanding response time, a cost
+effective and creative solutions for our clients with a complete
+package of services.
       </p>
     </div>
   </div>
@@ -132,13 +128,7 @@ const MvissionCard = () => {
       <h2 className="card-title">OUR VALUES</h2>
       <hr className="mt-4" />
       <p className="card-text pt-3" style={{ textAlign: "justify" }}>
-        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Autem
-        repellendus amet magni laboriosam dolore corporis fugit beatae suscipit
-        nulla facere praesentium aspernatur earum commodi, impedit laudantium
-        quod? Commodi eveniet consequatur magnam libero velit, aperiam
-        aspernatur temporibus! Obcaecati assumenda temporibus repudiandae
-        perferendis, illo modi in quos voluptatem accusantium? Modi, sint
-        voluptatem?
+      At the core of our company lies an unwavering commitment to excellence, innovation, and client satisfaction. We take pride in delivering top-notch marketing solutions that blend quality, creativity, and affordability, ensuring our clients receive unparalleled service.
       </p>
     </div>
   </div>

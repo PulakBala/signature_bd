@@ -8,7 +8,7 @@ import Contact from './Contact';
 import BioDegradable from './BioDegradable';
 import Offset from './Offset';
 import Advise from './advise';
-
+import Corggoted_cartton from './Corggoted_cartton';
 
 
 const router = createBrowserRouter([
@@ -35,6 +35,10 @@ const router = createBrowserRouter([
             {
                 path: 'advise',
                 element: <Advise/>
+            },
+            {
+                path: 'corggoted-cartton',
+                element: <Corggoted_cartton/>
             },
             {
                 path: 'news-events',

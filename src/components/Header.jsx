@@ -28,7 +28,7 @@ function Header() {
           <nav className="navbar navbar-expand-lg navbar-light">
             <a className="navbar-brand" href="#" style={{ margin: 0 }}>
               <img
-                src="./public/logo.jpg"
+                src="./public/logo_b.png"
                 alt="Logo"
                 style={{ height: '60px', margin: 0 }}
                 className=""
@@ -84,7 +84,7 @@ function Header() {
                         </Link>
                       </li>
                       <li>
-                        <Link to="/product-solutions/submenu4" className="dropdown-item">
+                        <Link to="/corggoted-cartton" className="dropdown-item">
                           CORROGATED CARTON
                         </Link>
                       </li>

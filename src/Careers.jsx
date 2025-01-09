@@ -8,7 +8,7 @@ const Careers = () => {
     return (
         <div>
             <CarrersHe/>
-            <Banner imageSrc="/public/Career.jpeg" imageAlt="Careers" />
+            <Banner imageSrc="/Career.jpeg" imageAlt="Careers" />
             <CareerBio/>
             <CareerBenefits/>
             <CareerOpor/>

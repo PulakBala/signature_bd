@@ -10,7 +10,7 @@ const BoardDirector = () => {
                 <div className="col-lg-4 col-md-6 col-sm-12 mb-4">
                     <div className="card border-0" style={{}}>
                         <img
-                            src="../../public/sir_edited.png" // Replace with the actual image path
+                            src="/sir_edited.png" // Replace with the actual image path
                             className="card-img-top"
                             alt="Hasan Mahmood Raja"
                             style={{ height: 'auto', maxHeight: '500px' }}
@@ -27,7 +27,7 @@ const BoardDirector = () => {
                 <div className="col-lg-4 col-md-6 col-sm-12 mb-4">
                     <div className="card border-0">
                         <img
-                            src="../../public/sir_edited.png" // Replace with the actual image path
+                            src="/sir_edited.png" // Replace with the actual image path
                             className="card-img-top"
                             alt="Enamul Haque"
                             style={{ height: 'auto', maxHeight: '500px' }}
@@ -43,7 +43,7 @@ const BoardDirector = () => {
                 <div className="col-lg-4 col-md-6 col-sm-12 mb-4">
                     <div className="card border-0">
                         <img
-                            src="../../public/sir_edited.png" // Replace with the actual image path
+                            src="/sir_edited.png" // Replace with the actual image path
                             className="card-img-top"
                             alt="Sanjid Shahnoor Syontu"
                             style={{ height: 'auto', maxHeight: '500px' }}

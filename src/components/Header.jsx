@@ -62,7 +62,7 @@ function Header() {
           <nav className="navbar navbar-expand-lg navbar-light">
             <a className="navbar-brand" href="#" style={{ margin: 0 }}>
               <img
-                src="./public/logo_b.png"
+                src="/logo_b.png"
                 alt="Logo"
                 style={{ height: '60px', margin: 0 }}
                 className=""

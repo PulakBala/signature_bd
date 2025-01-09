@@ -3,20 +3,20 @@ import React from "react";
 
 
 const CorggotedDetails = ({ cardsData = [
-    { imageSrc: '/public/cartton1.jpg', headline: 'Card 1 Headline' },
-    { imageSrc: '/public/carton2.jpg', headline: 'Card 2 Headline' },
-    { imageSrc: '/public/carton3.jpg', headline: 'Card 3 Headline' },
-    { imageSrc: '/public/carton5.jpg', headline: 'Card 4 Headline' },
-    { imageSrc: '/public/cor6.jpg', headline: 'Card 1 Headline' },
-    { imageSrc: '/public/cor7.jpg', headline: 'Card 2 Headline' },
-    { imageSrc: '/public/cor8.jpg', headline: 'Card 3 Headline' },
-    { imageSrc: '/public/cor9.jpg', headline: 'Card 4 Headline' }
+    { imageSrc: '/cartton1.jpg', headline: 'Card 1 Headline' },
+    { imageSrc: '/carton2.jpg', headline: 'Card 2 Headline' },
+    { imageSrc: '/carton3.jpg', headline: 'Card 3 Headline' },
+    { imageSrc: '/carton5.jpg', headline: 'Card 4 Headline' },
+    { imageSrc: '/cor6.jpg', headline: 'Card 1 Headline' },
+    { imageSrc: '/cor7.jpg', headline: 'Card 2 Headline' },
+    { imageSrc: '/cor8.jpg', headline: 'Card 3 Headline' },
+    { imageSrc: '/cor9.jpg', headline: 'Card 4 Headline' }
 ] }) =>{
     return(
         <>
             <section className="banner-section pb-5">
             <img 
-                src='/public/cor_banner.png' 
+                src='/cor_banner.png' 
                 className="banner-image"
                 style={{
                     width: '100%',

@@ -3,16 +3,16 @@ import './AdviseDetails.css';
 
 
 const AdviseDetails = ({ cardsData = [
-    { imageSrc: '/public/advise.jpg', headline: 'Card 1 Headline' },
-    { imageSrc: '/public/advise2.jpg', headline: 'Card 2 Headline' },
-    { imageSrc: '/public/advise3.jpg', headline: 'Card 3 Headline' },
-    { imageSrc: '/public/advise4.jpg', headline: 'Card 4 Headline' }
+    { imageSrc: '/advise.jpg', headline: 'Card 1 Headline' },
+    { imageSrc: '/advise2.jpg', headline: 'Card 2 Headline' },
+    { imageSrc: '/advise3.jpg', headline: 'Card 3 Headline' },
+    { imageSrc: '/advise4.jpg', headline: 'Card 4 Headline' }
 ] }) =>{
     return(
         <>
             <section className="banner-section pb-5">
             <img 
-                src='/public/adviseBanner.png' 
+                src='/adviseBanner.png' 
                 className="banner-image"
                 style={{
                     width: '100%',

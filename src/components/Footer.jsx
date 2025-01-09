@@ -11,7 +11,7 @@ const Footer = () => {
         <div className="row row-cols-1 row-cols-md-4 g-4">
           {/* Company Info */}
           <div className="col col-md-4">
-            <img src="/public/logo.jpg" alt="EXPO Accessories" className="w-100 h-16 rounded" style={{height:'180px'}}/>
+            <img src="/logo.jpg" alt="EXPO Accessories" className="w-100 h-16 rounded" style={{height:'180px'}}/>
             <p>
               Established in 2005, EXPO Accessories Limited, a part of EXPO Group,
               supports Bangladesh's export-oriented garments industry. As a leading

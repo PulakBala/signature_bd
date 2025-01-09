@@ -31,7 +31,7 @@ Partnering with Signature BD means choosing packaging that reflects your brandâ€
                             </div>
                             <div className="col-md-4">
                                 <img
-                                    src="/public/sus2.webp"
+                                    src="/sus2.webp"
                                     className="img-fluid rounded"
                                     alt="Sustainability"
                                 />
@@ -44,7 +44,7 @@ Partnering with Signature BD means choosing packaging that reflects your brandâ€
                         <div className="row">
                         <div className="col-md-4">
                                 <img
-                                    src="/public/bio6.webp"
+                                    src="/bio6.webp"
                                     className="img-fluid rounded"
                                     alt="Sustainability"
                                 />
@@ -79,7 +79,7 @@ Partnering with Signature BD means choosing packaging that reflects your brandâ€
                             </div>
                             <div className="col-md-4">
                                 <img
-                                    src="/public/sus3.jpg"
+                                    src="/sus3.jpg"
                                     className="img-fluid rounded"
                                     alt="Sustainability"
                                 />
@@ -93,7 +93,7 @@ Partnering with Signature BD means choosing packaging that reflects your brandâ€
                         <div className="row">
                         <div className="col-md-4">
                                 <img
-                                    src="/public/sus4.jpg"
+                                    src="/sus4.jpg"
                                     className="img-fluid rounded"
                                     alt="Sustainability"
                                 />
@@ -133,7 +133,7 @@ In addition to reducing greenhouse gas emissions, plant-based packaging supports
                             </div>
                             <div className="col-md-4">
                                 <img
-                                    src="/public/sus5.jpg"
+                                    src="/sus5.jpg"
                                     className="img-fluid rounded"
                                     alt="Sustainability"
                                 />
@@ -146,7 +146,7 @@ In addition to reducing greenhouse gas emissions, plant-based packaging supports
                         <div className="row">
                         <div className="col-md-4">
                                 <img
-                                    src="/public/sus6.avif"
+                                    src="/sus6.avif"
                                     className="img-fluid rounded"
                                     alt="Sustainability"
                                 />

@@ -5,9 +5,9 @@ const Factory = () => {
   const [currentSlide, setCurrentSlide] = useState(0);
 
   const images = [
-    "/public/factory1.jpeg",
-    "/public/factory3.jpeg",
-    "/public/factory4.jpeg",
+    "/factory1.jpeg",
+    "/factory3.jpeg",
+    "/factory4.jpeg",
   ];
 
   // Automatically change the slide every 3 seconds
@@ -22,7 +22,7 @@ const Factory = () => {
     section: {
       height: "500px",
       backgroundImage:
-        'linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("/public/factory.jpg")',
+        'linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("/factory.jpg")',
       backgroundSize: "cover",
       backgroundAttachment: "fixed",
       backgroundPosition: "center",
@@ -67,7 +67,7 @@ const Factory = () => {
           <div className="col-md-2">
             <div className="card" style={styles.card}>
               <img
-                src="/public/factory1.jpeg"
+                src="/factory1.jpeg"
                 alt="Office Building"
                 className="card-img-top"
               />
@@ -80,7 +80,7 @@ const Factory = () => {
           <div className="col-md-2">
             <div className="card" style={styles.card}>
               <img
-                src="/public/factory3.jpeg"
+                src="/factory3.jpeg"
                 alt="Care Home and Canteen"
                 className="card-img-top"
               />
@@ -93,7 +93,7 @@ const Factory = () => {
           <div className="col-md-2">
             <div className="card" style={styles.card}>
               <img
-                src="/public/factory4.jpeg"
+                src="/factory4.jpeg"
                 alt="Warehouse"
                 className="card-img-top"
               />

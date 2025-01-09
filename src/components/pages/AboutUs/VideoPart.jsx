@@ -6,7 +6,7 @@ const VidePart = () => {
 				<main style={{ padding: '20px' }}>
 						<section className='pb-5'> 
 						<video
-								src="./public/about-video.mp4"  // Apnar video file er path din
+								src="/about-video.mp4"  // Apnar video file er path din
 								style={{
 										width: '100%',  // Full width of the container
 										height: 'auto',  // Auto height to maintain aspect ratio

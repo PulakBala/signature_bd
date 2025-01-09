@@ -32,7 +32,7 @@ const CareerBio = () => {
                         <div className="row">
                         <div className="col-md-6 d-none">
                                 <img
-                                    src="/public/sir_edited.png"
+                                    src="/sir_edited.png"
                                     className="img-fluid rounded"
                                     style={{ 
                                         height: '100%',

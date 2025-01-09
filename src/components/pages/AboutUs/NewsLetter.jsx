@@ -6,7 +6,7 @@ const NewsLetter = () => {
     <div
       className="newsletter-section"
       style={{
-        backgroundImage: "url('/public/newsletter.jpg')",
+        backgroundImage: "url('/newsletter.jpg')",
         backgroundSize: "cover",
         backgroundPosition: "center",
         padding: "50px 0",

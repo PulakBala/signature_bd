@@ -17,13 +17,13 @@ const CareerBenefits = () => {
                                 {/* First Row */}
                                 <div className='col-md-6 py-2'>
                                     <div className='d-flex align-items-center gap-3 text-uppercase'>
-                                        <img src="/public/edu.png" alt="benefit" style={{ width: '50px', height: '50px' }} />
+                                        <img src="/edu.png" alt="benefit" style={{ width: '50px', height: '50px' }} />
                                         <h5>Personal Career Growth</h5>
                                     </div>
                                 </div>
                                 <div className='col-md-6 py-2'>
                                     <div className='d-flex align-items-center gap-3 text-uppercase'>
-                                        <img src="/public/heart.png" alt="benefit" style={{ width: '50px', height: '50px' }} />
+                                        <img src="/heart.png" alt="benefit" style={{ width: '50px', height: '50px' }} />
                                         <h5>Healthy Work Environment</h5>
                                     </div>
                                 </div>
@@ -31,13 +31,13 @@ const CareerBenefits = () => {
                                 {/* Second Row */}
                                 <div className='col-md-6 py-2'>
                                     <div className='d-flex align-items-center gap-3 text-uppercase'>
-                                        <img src="/public/learning.png" alt="benefit" style={{ width: '50px', height: '50px' }} />
+                                        <img src="/learning.png" alt="benefit" style={{ width: '50px', height: '50px' }} />
                                         <h5>Learning & Development</h5>
                                     </div>
                                 </div>
                                 <div className='col-md-6 py-2'>
                                     <div className='d-flex align-items-center gap-3 text-uppercase'>
-                                        <img src="/public/beach_holiday.png" alt="benefit" style={{ width: '50px', height: '50px' }} />
+                                        <img src="/beach_holiday.png" alt="benefit" style={{ width: '50px', height: '50px' }} />
                                         <h5>
                                         Welfare Assistance</h5>
                                     </div>
@@ -46,13 +46,13 @@ const CareerBenefits = () => {
                                 {/* Third Row */}
                                 <div className='col-md-6 py-2'>
                                     <div className='d-flex align-items-center gap-3 text-uppercase'>
-                                        <img src="/public/MATERNITY.png" alt="benefit" style={{ width: '50px', height: '50px' }} />
+                                        <img src="/MATERNITY.png" alt="benefit" style={{ width: '50px', height: '50px' }} />
                                         <h5>Maternity/Paternity Benefits</h5>
                                     </div>
                                 </div>
                                 <div className='col-md-6 py-2'>
                                     <div className='d-flex align-items-center gap-3 text-uppercase'>
-                                        <img src="/public/WORK.png" alt="benefit" style={{ width: '50px', height: '50px' }} />
+                                        <img src="/WORK.png" alt="benefit" style={{ width: '50px', height: '50px' }} />
                                         <h5>Work-life Integration</h5>
                                     </div>
                                 </div>

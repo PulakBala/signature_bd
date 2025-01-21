@@ -58,25 +58,28 @@ const OurClients = () => {
         <h2 style={style.heading}>OUR CLIENTS</h2>
         <Slider {...settings}>
           <div style={style.slide}>
-            <img style={style.image} src="/public/biman.svg" alt="Client 1" />
+            <img style={style.image} src="/biman.svg" alt="Client 1" />
           </div>
           <div style={style.slide}>
-            <img style={style.image} src="/public/devoted.webp" alt="Client 2" />
+            <img style={style.image} src="/devoted.webp" alt="Client 2" />
           </div>
           <div style={style.slide}>
-            <img style={style.image} src="/public/Herfy.png" alt="Client 3" />
+            <img style={style.image} src="/Herfy.png" alt="Client 3" />
           </div>
           <div style={style.slide}>
-            <img style={style.image} src="/public/polar.jpg" alt="Client 4" />
+            <img style={style.image} src="/polar.jpg" alt="Client 4" />
           </div>
           <div style={style.slide}>
-            <img style={style.image} src="/public/radiant.png" alt="Client 5" />
+            <img style={style.image} src="/radiant.png" alt="Client 5" />
           </div>
           <div style={style.slide}>
-            <img style={style.image} src="/public/rancon.jpg" alt="Client 6" />
+            <img style={style.image} src="/rancon.jpg" alt="Client 6" />
           </div>
           <div style={style.slide}>
-            <img style={style.image} src="/public/tastebud.jpg" alt="Client 6" />
+            <img style={style.image} src="/tastebud.jpg" alt="Client 6" />
+          </div>
+          <div style={style.slide}>
+            <img style={style.image} src="/zydus.webp" alt="Client 6" />
           </div>
         </Slider>
       </div>

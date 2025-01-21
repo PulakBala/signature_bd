@@ -6,7 +6,7 @@ const NewsEvents = () => {
     return (
         <>
             <NewsEvH />
-            <Banner imageSrc="/public/expoaccessories-event-banner.jpg" imageAlt="Banner" />
+            <Banner imageSrc="/expoaccessories-event-banner.jpg" imageAlt="Banner" />
             <PreviousEvents/>
         </>
     );

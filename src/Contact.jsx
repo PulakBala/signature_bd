@@ -5,7 +5,7 @@ import Banner from './components/pages/sustanability/Banner';
 const Contact = () => {
     return (
         <div>
-            <Banner imageSrc="/public/contactbanner.jpg" imageAlt="Contact" />
+            <Banner imageSrc="/contactbanner.jpg" imageAlt="Contact" />
             <ContactForm/>
         </div>
     );

@@ -21,7 +21,7 @@ const MvissionCard = () => {
     <div
       style={{
        
-        backgroundImage: "url('../public/service-bg2.png')",
+        backgroundImage: "url('/service-bg2.png')",
         backgroundSize: "cover",
         backgroundPosition: "center",
         backgroundRepeat: "no-repeat",
@@ -65,7 +65,7 @@ world.
     {/* Background Image Layer */}
     <div
       style={{
-        backgroundImage: "url('../public/service-bg2.png')",
+        backgroundImage: "url('/service-bg2.png')",
         backgroundSize: "cover",
         backgroundPosition: "center",
         backgroundRepeat: "no-repeat",
@@ -109,7 +109,7 @@ package of services.
     {/* Background Image Layer */}
     <div
       style={{
-        backgroundImage: "url('../public/service-bg2.png')",
+        backgroundImage: "url('/service-bg2.png')",
         backgroundSize: "cover",
         backgroundPosition: "center",
         backgroundRepeat: "no-repeat",

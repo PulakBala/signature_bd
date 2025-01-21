@@ -12,7 +12,7 @@ const CareerBio = () => {
                                 textAlign: 'justify',
                                 wordWrap: 'break-word',
                                 overflowWrap: 'break-word'
-                            }}>Signature bd is one of the diversified business entities in Bangladesh, running various businesses with the best efforts of a dynamic team to maintain its excellence. The core strength of the business mainly derives from the talented human resources of United Group. We hire people from diverse, experienced, and professional backgrounds. We have goodwill to engage freshers to give them opportunities to learn, grow, and earn.<br /> <br />
+                            }}>Signature bd is one of the diversified business entities in Bangladesh, running various businesses with the best efforts of a dynamic team to maintain its excellence. The core strength of the business mainly derives from the talented human resources of SIGNATURE BD. We hire people from diverse, experienced, and professional backgrounds. We have goodwill to engage freshers to give them opportunities to learn, grow, and earn.<br /> <br />
 
                                 Our transformation of leadership approach is one of the core values to flourish innovative thoughts from the growing generation to compete in the national and global economy. We enrich the national GDP through sector-based people ’s technical and professional expertise. The bonding between people and culture creates a great vibe of patriotism, which gives us the essence of business development and addresses the requirements of business trends.<br /> <br />
 
@@ -32,7 +32,7 @@ const CareerBio = () => {
                         <div className="row">
                         <div className="col-md-6 d-none">
                                 <img
-                                    src="/public/sir_edited.png"
+                                    src="/sir_edited.png"
                                     className="img-fluid rounded"
                                     style={{ 
                                         height: '100%',

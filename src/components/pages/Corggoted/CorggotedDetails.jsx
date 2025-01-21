@@ -1,51 +1,45 @@
 import React from "react";
 
-
-
 const CorggotedDetails = ({ cardsData = [
-    { imageSrc: '/public/cartton1.jpg', headline: 'Card 1 Headline' },
-    { imageSrc: '/public/carton2.jpg', headline: 'Card 2 Headline' },
-    { imageSrc: '/public/carton3.jpg', headline: 'Card 3 Headline' },
-    { imageSrc: '/public/carton5.jpg', headline: 'Card 4 Headline' },
-    { imageSrc: '/public/cor6.jpg', headline: 'Card 1 Headline' },
-    { imageSrc: '/public/cor7.jpg', headline: 'Card 2 Headline' },
-    { imageSrc: '/public/cor8.jpg', headline: 'Card 3 Headline' },
-    { imageSrc: '/public/cor9.jpg', headline: 'Card 4 Headline' }
+
+    { imageSrc: '/cor6.jpg', headline: 'Card 1 Headline' },
+    { imageSrc: '/cor10.webp', headline: 'Card 2 Headline' },
+   
 ] }) =>{
     return(
         <>
             <section className="banner-section pb-5">
             <img 
-                src='/public/cor_banner.png' 
+                src='/carttondesign.png' 
                 className="banner-image"
                 style={{
                     width: '100%',
-                    height: '600px',
-                    maxHeight: 'auto',
+                    height: 'auto', // Change made here
                     objectFit: 'cover',
                     minHeight: '250px'
                 }}
             />
             <div className="container pb-5">
-            <p className="py-5">Signature BD specializes in high-quality auto label (self-adhesive) printing that meets the diverse needs of businesses across industries. Our labels are designed for durability, precision, and easy application, making them ideal for packaging, branding, and product identification.
+            <p className="py-5">CORROGATED CARTON is a versatile and eco-friendly packaging solution that provides excellent protection for a wide range of products. Made from recycled materials, these cartons are not only sustainable but also lightweight, making them an ideal choice for shipping and storage.
 
-With advanced printing technology, we ensure vibrant colors, sharp details, and customizable designs that align perfectly with your brand’s identity. Whether you need labels for bottles, boxes, or other surfaces, our self-adhesive solutions adhere seamlessly and maintain their integrity even in challenging environments.
+With their robust structure, corrugated cartons can withstand the rigors of transportation while ensuring that your products arrive in perfect condition. They are customizable in size and design, allowing businesses to create packaging that reflects their brand identity. Whether for retail, e-commerce, or industrial use, corrugated cartons offer a reliable and cost-effective solution for all your packaging needs.
 
-At Signature BD, we prioritize innovation and quality, offering reliable and visually appealing label printing services that help your products leave a lasting impression. Trust us to deliver labels that stick to your needs and elevate your brand.</p>
+At Signature BD, we understand the importance of quality packaging, and our corrugated cartons are designed to meet the highest standards of durability and performance. Trust us to provide packaging solutions that protect your products and enhance your brand's image.</p>
             <div className="card-container">
                 {cardsData.map((card, index) => (
-                    <div key={index} className="card">
+                    <div key={index} className="card" >
                         <img 
                             src={card.imageSrc} 
                             alt={`Card ${index + 1}`} 
                             className="card-image"
-                            style={{ width: '100%', height: '250px' }}
+                            style={{ width: '100%', height: '400px' }}
                         />
                     </div>
                 ))}
             </div>
             </div>
         </section>
+
         </>
     )
 }

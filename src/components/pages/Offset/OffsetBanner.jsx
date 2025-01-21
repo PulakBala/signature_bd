@@ -2,16 +2,16 @@ import React from "react";
 
 
 const OffsetBanner = ({ cardsData = [
-    { imageSrc: '/public/offset1.jpg'},
-    { imageSrc: '/public/offset2.jpg'},
-    { imageSrc: '/public/offset3.jpg'},
-    { imageSrc: '/public/offset4.webp'}
+    { imageSrc: '/offset6.jpg'},
+    { imageSrc: '/offset7.jpeg'},
+    { imageSrc: '/offset8.jpg'},
+    { imageSrc: '/offset5.jpeg'}
 ] }) =>{
     return(
         <>
             <section className="banner-section pb-5">
             <img 
-                src='/public/offsetBanner.png' 
+                src='/offset_H.png' 
                 className="banner-image"
                 style={{
                     width: '100%',

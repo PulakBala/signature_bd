@@ -1,0 +1,17 @@
+.card-container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap; /* Allow cards to wrap to the next line on smaller screens */
+    gap: 50px; /* Add space between cards */
+  }
+  
+  .card {
+    flex: 0 0 48%; /* Default: 48% width for larger devices */
+    margin-bottom: 10px;
+  }
+  
+  @media (max-width: 768px) {
+    .card {
+      flex: 0 0 100%; /* Full width for smaller devices */
+    }
+  }

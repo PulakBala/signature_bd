@@ -23,7 +23,7 @@ const CareerOpor = () => {
     ];
 
     return (
-        <div className="container my-5">
+        <div className="container my-5 d-none">
             <h2 className="text-center mb-5">CURRENT CAREER OPPORTUNITIES</h2>
             <div className="row g-4">
                 {jobListings.map((job) => (

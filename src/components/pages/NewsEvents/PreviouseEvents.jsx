@@ -43,14 +43,14 @@ const PreviousEvents = () => {
     ];
 
     return (
-        <div className="container py-5">
+        <div className="container py-5 d-none">
             <h1 className="text-center mb-4">Previous Events</h1>
             
             <div className="row g-4">
                 {events.map((event, index) => (
                     <div className="col-md-4" key={index}>
                         <div className="card h-100">
-                            <img src="/public/event1.jpg" alt={event.title} className="card-img-top" style={{height: "200px", objectFit: "cover"}} />
+                            <img src="/event1.jpg" alt={event.title} className="card-img-top" style={{height: "200px", objectFit: "cover"}} />
                             <div className="card-body">
                                 <h2 className="card-title h5">{event.title}</h2>
                                 <p>{truncateText(event.description, 30)}</p>

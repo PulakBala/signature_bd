@@ -7,7 +7,7 @@ const CorggotedH = () => {
     <div className="container">
         <div className="row">
             <div className="col-lg-6">
-                <h4 className="text-uppercase"> AUTO LABEL (SELF ADHESIVE) PRINTING</h4>
+                <h4 className="text-uppercase"> CORROGATED CARTON</h4>
             </div>
         </div>
     </div>

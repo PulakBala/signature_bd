@@ -115,11 +115,9 @@ const Factory = () => {
           </div>
         </div>
         <p className="d-flex justify-content-center" style={styles.description}>
-          We are expanding our operation in 2024 to a new green factory with
-          over 1,58,400 square feet in size. Hopefully, we will get Our LEED
-          <br />
-          Platinum certification in 2024 and it will be one of the largest
-          Platinum Lead certified Accessories companies in Bangladesh.
+        We are expanding our operation in 2024 to a new green factory with over 1,00,000 square feet in size.
+         Hopefully, we will get Our LEED Platinum certification in 2025 <br/>
+          and it will be one of the largest Platinum Lead certified packaging companies in Bangladesh.
         </p>
       </div>
 
